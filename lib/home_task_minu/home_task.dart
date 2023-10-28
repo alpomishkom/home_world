@@ -3,14 +3,9 @@ import 'package:home_world_lar/home_task_minu/task_1.dart';
 import 'package:home_world_lar/home_task_minu/task_2.dart';
 import 'package:home_world_lar/home_task_minu/task_3.dart';
 
-class HomeTaskt extends StatefulWidget {
+class HomeTaskt extends StatelessWidget {
   HomeTaskt({super.key});
 
-  @override
-  State<HomeTaskt> createState() => _HomeTasktState();
-}
-
-class _HomeTasktState extends State<HomeTaskt> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

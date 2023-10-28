@@ -1,12 +1,7 @@
 import 'package:flutter/material.dart';
-class Home_taskt_1 extends StatefulWidget {
+class Home_taskt_1 extends StatelessWidget {
   const Home_taskt_1({super.key});
 
-  @override
-  State<Home_taskt_1> createState() => _Home_taskt_1State();
-}
-
-class _Home_taskt_1State extends State<Home_taskt_1> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
